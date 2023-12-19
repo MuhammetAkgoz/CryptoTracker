@@ -15,6 +15,7 @@
 		F547725C2B2B7D57009FB41D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547725B2B2B7D57009FB41D /* HomeView.swift */; };
 		F54772612B2B7F75009FB41D /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54772602B2B7F75009FB41D /* CircleButton.swift */; };
 		F54772642B2B86C0009FB41D /* CircleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54772632B2B86C0009FB41D /* CircleAnimation.swift */; };
+		F54772672B2B8AB6009FB41D /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54772662B2B8AB6009FB41D /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F547725B2B2B7D57009FB41D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F54772602B2B7F75009FB41D /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		F54772632B2B86C0009FB41D /* CircleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAnimation.swift; sourceTree = "<group>"; };
+		F54772662B2B8AB6009FB41D /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		F54772582B2B7D42009FB41D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F54772652B2B8A99009FB41D /* Model */,
 				F547725A2B2B7D4B009FB41D /* ViewModel */,
 				F54772592B2B7D47009FB41D /* View */,
 			);
@@ -149,6 +152,14 @@
 				F54772632B2B86C0009FB41D /* CircleAnimation.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		F54772652B2B8A99009FB41D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F54772662B2B8AB6009FB41D /* CoinModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 				F54772562B2B7A38009FB41D /* Color+Extension.swift in Sources */,
 				F54772612B2B7F75009FB41D /* CircleButton.swift in Sources */,
 				F54772472B2B7774009FB41D /* CryptoTrackerApp.swift in Sources */,
+				F54772672B2B8AB6009FB41D /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
